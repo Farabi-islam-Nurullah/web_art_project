@@ -1,0 +1,592 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wrappper {}
+
+
+/*-----------------------------
+-----------hero section--------
+-------------------------------*/
+
+.hero-section {
+    background-image: url(../images/banar1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.hero-section .header {
+    padding-top: 20px;
+}
+
+.hero-section .header ul {}
+
+.hero-section .header ul li {
+    list-style: none;
+}
+
+.hero-section .header ul li a {
+    text-decoration: none;
+    margin: 0px 10px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.hero-section .header input::-webkit-input-placeholder {
+    padding-left: 10px;
+}
+
+.hero-section .header input::-moz-placeholder {
+    padding-left: 10px;
+}
+
+.hero-section .header input:-ms-input-placeholder {
+    padding-left: 10px;
+}
+
+.hero-section .header input::-ms-input-placeholder {
+    padding-left: 10px;
+}
+
+.hero-section .header input::placeholder {
+    padding-left: 10px;
+}
+
+.hero-section .banar-contant {
+    text-align: center;
+    padding: 150px 0px;
+}
+
+.hero-section .banar-contant h2 {
+    font-size: 70px;
+    font-weight: 600;
+    letter-spacing: -2px;
+    padding-bottom: 40px;
+}
+
+.hero-section .banar-contant button {
+    background-color: #61D25A;
+    color: white;
+    padding: 6px 20px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.hero-section .banar-contant button:focus {
+    outline: none;
+}
+
+.hero-section .header .search-box {
+    float: left;
+}
+
+.hero-section .header .search-box input {
+    display: inline;
+}
+
+.fa-search {
+    color: black;
+    /* position: relative;
+    top: 0px;
+    right: 10px; */
+}
+
+.form-control {
+    border-radius: 20px 0px 0px 20px;
+    height: 38px;
+}
+
+.btn {
+    height: 38px;
+    background-color: white;
+    border-radius: 0px 20px 20px 0px;
+}
+
+
+/*-----------------------------
+-----------whatWeDo section-----
+-------------------------------*/
+
+.whatWeDo-section {
+    color: #949494;
+}
+
+.whatWeDo-section .heading {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.whatWeDo-section .whatWeDo-content {
+    text-align: center;
+}
+
+.whatWeDo-section .heading h3 {}
+
+.whatWeDo-section .heading p {}
+
+.whatWeDo-section .whatWeDo-content {
+    padding-bottom: 100px;
+}
+
+.whatWeDo-section .whatWeDo-content .whatWeDo-box {}
+
+.whatWeDo-section .whatWeDo-content .whatWeDo-box .box {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    background-color: #E2F3E1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 40px;
+}
+
+.whatWeDo-section .whatWeDo-content .whatWeDo-box .box i {
+    color: #61D25A;
+    font-size: 80px;
+}
+
+.whatWeDo-section .whatWeDo-content .whatWeDo-box h3 {
+    font-size: 23px;
+    padding: 20px;
+}
+
+.whatWeDo-section .whatWeDo-content .whatWeDo-box p {}
+
+.whatWeDo-section .whatWeDo-content .whatWeDo-box button {
+    background-color: #61D25A;
+    color: white;
+    padding: 4px 20px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.whatWeDo-section .whatWeDo-content .whatWeDo-box button:focus {
+    outline: none;
+}
+
+
+/*-----------------------------
+-----------work section--------
+-------------------------------*/
+
+.work-section {
+    background-color: #61D25A;
+}
+
+.work-section .work-heading {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.work-section .work-heading h2 {}
+
+.work-section .work-heading button {
+    color: #61D25A;
+    background-color: white;
+    padding: 4px 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-right: -10px;
+    border-top: 1px solid #61D25A;
+    border-bottom: 1px solid #61D25A;
+}
+
+.work-section .work-heading button:nth-child(1) {
+    color: black;
+}
+
+.work-section .work-contant .col-md-2 {
+    height: 150px;
+}
+
+.work-section .work-contant img {
+    padding-bottom: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.work-section .work-button {
+    padding: 50px;
+    text-align: center;
+}
+
+.work-section .work-button button {
+    background-color: #399B32;
+    color: white;
+    padding: 6px 20px;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
+.work-section .work-button button:focus {
+    outline: none;
+}
+
+
+/*----------------------------------
+-----------testimonial section-----
+------------------------------------*/
+
+.testimonial-section {
+    padding: 50px 0px;
+}
+
+.testimonial-section .textimonial-heding {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.testimonial-section .textimonial-heding h2 {
+    text-transform: uppercase;
+}
+
+.testimonial-section .textimonial-heding p {}
+
+.testimonial-section .wrok-slid {
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.testimonial-section .wrok-slid .slide-perosn-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.testimonial-section .wrok-slid .slide-perosn-box .img-box {
+    height: 50px;
+    width: 50px;
+}
+
+.testimonial-section .wrok-slid .slide-perosn-box .img-box img {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.testimonial-section .wrok-slid .slide-perosn-box .inform-box {
+    margin-left: 20px !important;
+}
+
+.testimonial-section .wrok-slid .slide-perosn-box .inform-box p {
+    margin-bottom: 0px !important;
+}
+
+.carousel-control-prev {
+    background-color: rgb(236, 234, 234);
+}
+
+.carousel-control-next {
+    background-color: rgb(236, 234, 234);
+}
+
+
+/*----------------------------------
+-----------client section-----------
+------------------------------------*/
+
+.client-section {
+    background-color: #F2F1F1;
+}
+
+.client-section .client-heading {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.client-section .client-heading h2 {
+    text-transform: uppercase;
+}
+
+.client-section .client-heading p {}
+
+.client-section .client-gallary {}
+
+.client-section .client-gallary .col-md-2 {
+    padding-bottom: 50px;
+}
+
+.client-section .client-buttom {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.client-section .client-buttom button {
+    background-color: #DDDCDC;
+    color: #828181;
+    padding: 6px 20px;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
+.client-section .client-buttom button:focus {
+    outline: none;
+}
+
+
+/*----------------------------------
+-----------team section------------
+------------------------------------*/
+
+.team-section {
+    background-color: #61D25A;
+}
+
+.team-section .team-heading {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.team-section .all-team-member {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.team-section .all-team-member .single-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.team-section .all-team-member .single-member p {}
+
+.team-section .all-team-member .single-member .line {
+    width: 2px;
+    height: 100px;
+    margin: auto;
+    background-color: black;
+    padding: 10px 0px;
+    margin-top: 10px;
+}
+
+.team-section .all-team-member .social-icon-box {
+    padding-bottom: 50px;
+}
+
+.team-section .all-team-member .social-icon-box ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.team-section .all-team-member .social-icon-box ul li {
+    list-style: none;
+}
+
+.team-section .all-team-member .social-icon-box ul li a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+.team-section .all-team-member .social-icon-box ul li a i {}
+
+.team-section .button-box {
+    padding: 30px 0px;
+    background-color: #4CBA45;
+    text-align: center;
+}
+
+.team-section .button-box button {
+    background-color: #61D25A;
+    color: white;
+    padding: 6px 20px;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
+.team-section .button-box button:focus {
+    outline: none;
+}
+
+
+/*----------------------------------
+-----------footer section------------
+------------------------------------*/
+
+.footer-section {
+    background-color: #333333;
+    padding: 60px 0px 40px;
+}
+
+.footer-section .content {
+    color: wheat;
+}
+
+.footer-section .content .heading {
+    text-align: center;
+    padding: 100px 0px 50px;
+}
+
+.footer-section .content .heading h2 {
+    padding-bottom: 25px;
+}
+
+.footer-section .content .heading p {}
+
+.footer-section .content .social-icon-box {}
+
+.footer-section .content .social-icon-box ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100px;
+    margin: auto;
+    background-color: #61D25A;
+    border-radius: 10px;
+}
+
+.footer-section .content .social-icon-box ul li {
+    list-style: none;
+}
+
+.footer-section .content .social-icon-box ul li a {
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-section .content .social-icon-box ul li a i {}
+
+.footer-section .form-main-box {
+    color: wheat;
+}
+
+.footer-section .form-main-box .heading {
+    text-align: center;
+    padding: 50px 0px 25px;
+}
+
+.footer-section .form-main-box .heading h2 {
+    text-transform: uppercase;
+}
+
+.footer-section .form-main-box .heading h2 p {}
+
+.footer-section .form-main-box .form-box {}
+
+.footer-section .form-main-box .form-box input {
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #444444;
+    border: none;
+}
+
+.footer-section .form-main-box .form-box input:focus {
+    outline: none;
+}
+
+.footer-section .form-main-box .form-box input::-webkit-input-placeholder {
+    padding-right: 5px;
+    text-transform: capitalize;
+}
+
+.footer-section .form-main-box .form-box input::-moz-placeholder {
+    padding-right: 5px;
+    text-transform: capitalize;
+}
+
+.footer-section .form-main-box .form-box input:-ms-input-placeholder {
+    padding-right: 5px;
+    text-transform: capitalize;
+}
+
+.footer-section .form-main-box .form-box input::-ms-input-placeholder {
+    padding-right: 5px;
+    text-transform: capitalize;
+}
+
+.footer-section .form-main-box .form-box input::placeholder {
+    padding-right: 5px;
+    text-transform: capitalize;
+}
+
+.footer-section .form-main-box .form-box textarea {
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    height: 100px;
+    resize: none;
+    background-color: #444444;
+    border: none;
+}
+
+.footer-section .form-main-box .form-box textarea::-webkit-input-placeholder {
+    padding-right: 5px;
+    text-transform: capitalize;
+}
+
+.footer-section .form-main-box .form-box textarea::-moz-placeholder {
+    padding-right: 5px;
+    text-transform: capitalize;
+}
+
+.footer-section .form-main-box .form-box textarea:-ms-input-placeholder {
+    padding-right: 5px;
+    text-transform: capitalize;
+}
+
+.footer-section .form-main-box .form-box textarea::-ms-input-placeholder {
+    padding-right: 5px;
+    text-transform: capitalize;
+}
+
+.footer-section .form-main-box .form-box textarea::placeholder {
+    padding-right: 5px;
+    text-transform: capitalize;
+}
+
+.footer-section .form-main-box .form-box textarea:focus {
+    outline: none;
+}
+
+.footer-section .form-main-box .form-box button {
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #399B32;
+    border: none;
+}
+
+.footer-section .form-main-box .form-box button:focus {
+    outline: none;
+}

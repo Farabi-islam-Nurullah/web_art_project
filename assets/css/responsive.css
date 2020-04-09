@@ -1,0 +1,162 @@
+/* landscreep mobile screen */
+
+@media only screen and (max-width:480px) {
+    .hero-section .header ul li a {
+        padding: 0px 20px;
+    }
+    .header-title {
+        display: none;
+    }
+    .hero-section .banar-contant h2 {
+        font-size: 30px;
+        font-weight: 400;
+        letter-spacing: -1px;
+        padding-bottom: 20px;
+    }
+    .hero-section .banar-contant {
+        text-align: center;
+        padding: 100px 0px;
+    }
+    .hero-section .banar-contant button {
+        padding: 4px 10px;
+        border-radius: 20px;
+        font-size: 14px;
+    }
+    .whatWeDo-section .heading {
+        padding: 25px 0px;
+    }
+    .whatWeDo-section .whatWeDo-content {
+        padding-bottom: 50px;
+    }
+    .whatWeDo-section .whatWeDo-content .whatWeDo-box .box {
+        height: 100px;
+        width: 100px;
+        border-radius: 5px;
+    }
+    .whatWeDo-section .whatWeDo-content .whatWeDo-box .box i {
+        font-size: 60px;
+    }
+    .whatWeDo-section .whatWeDo-content .whatWeDo-box {
+        padding-bottom: 30px;
+    }
+    .work-section .work-heading {
+        padding: 20px 0px;
+    }
+    .work-section .work-heading h2 {
+        font-size: 25px;
+    }
+    .img-fluid {
+        width: 100% !important;
+    }
+    .work-section .work-button button {
+        padding: 4px 15px;
+        border-radius: 20px;
+    }
+    .testimonial-section {
+        padding: 20px 0px;
+    }
+    .testimonial-section .textimonial-heding {
+        text-align: center;
+        padding: 20px 0px;
+    }
+    .testimonial-section .wrok-slid {
+        padding-bottom: 0px;
+    }
+    .client-section .client-gallary .col-md-2 {
+        padding-bottom: 10px;
+    }
+    .client-section .client-gallary .col-md-2 img {
+        width: 40px;
+    }
+    .client-section .client-buttom {
+        padding: 20px;
+    }
+    .client-section .client-buttom button {
+        padding: 4px 10px;
+        font-size: 15px;
+    }
+    .work-section .work-contant img {
+        height: 100%;
+        width: 90%;
+    }
+}
+
+
+/* small screen */
+
+@media only screen and (max-width:320px) {
+    .hero-section .header ul li a {
+        padding: 0px 20px;
+    }
+    .header-title {
+        display: none;
+    }
+    .hero-section .banar-contant h2 {
+        font-size: 30px;
+        font-weight: 400;
+        letter-spacing: -1px;
+        padding-bottom: 20px;
+    }
+    .hero-section .banar-contant {
+        text-align: center;
+        padding: 100px 0px;
+    }
+    .hero-section .banar-contant button {
+        padding: 4px 10px;
+        border-radius: 20px;
+        font-size: 14px;
+    }
+    .whatWeDo-section .heading {
+        padding: 25px 0px;
+    }
+    .whatWeDo-section .whatWeDo-content {
+        padding-bottom: 50px;
+    }
+    .whatWeDo-section .whatWeDo-content .whatWeDo-box .box {
+        height: 100px;
+        width: 100px;
+        border-radius: 5px;
+    }
+    .whatWeDo-section .whatWeDo-content .whatWeDo-box .box i {
+        font-size: 60px;
+    }
+    .whatWeDo-section .whatWeDo-content .whatWeDo-box {
+        padding-bottom: 30px;
+    }
+    .work-section .work-heading {
+        padding: 20px 0px;
+    }
+    .work-section .work-heading h2 {
+        font-size: 25px;
+    }
+    .work-section .work-button button {
+        padding: 4px 15px;
+        border-radius: 20px;
+    }
+    .testimonial-section {
+        padding: 20px 0px;
+    }
+    .testimonial-section .textimonial-heding {
+        text-align: center;
+        padding: 20px 0px;
+    }
+    .testimonial-section .wrok-slid {
+        padding-bottom: 0px;
+    }
+    .client-section .client-gallary .col-md-2 {
+        padding-bottom: 10px;
+    }
+    .client-section .client-gallary .col-md-2 img {
+        width: 40px;
+    }
+    .client-section .client-buttom {
+        padding: 20px;
+    }
+    .client-section .client-buttom button {
+        padding: 4px 10px;
+        font-size: 15px;
+    }
+    .single-member {
+        width: 100% !important;
+    }
+}

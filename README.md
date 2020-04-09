@@ -1,1 +1,1 @@
-# web_arts_project
+# project-7
